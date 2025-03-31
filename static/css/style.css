@@ -1,0 +1,134 @@
+/* 🌞 Global Styling */
+body {
+        background-color: #f8f9fa;
+        color: #212529;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* 🌟 Navbar */
+    .navbar {
+        background: linear-gradient(135deg, #ffffff, #e9ecef);
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+        color: #212529;
+    }
+    
+    .nav-link {
+        color: #343a40;
+        transition: 0.3s;
+    }
+    
+    .nav-link:hover {
+        color: #007bff;
+    }
+    
+    /* 🎨 Form Styling */
+    .container {
+        margin-top: 20px;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-control {
+        background: #ffffff;
+        color: #212529;
+        border: 1px solid #ced4da;
+    }
+    
+    .form-control:focus {
+        background: #ffffff;
+        border: 1px solid #007bff;
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+    }
+    
+    /* 📝 Todo List */
+    .table {
+        margin-top: 20px;
+        background: #ffffff;
+        color: #212529;
+        border-radius: 10px;
+    }
+    
+    th {
+        background: #f1f1f1;
+        color: #007bff;
+    }
+    
+    td {
+        background: #ffffff;
+    }
+    
+    /* ✨ Buttons */
+    .btn {
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+    
+    .btn-outline-primary {
+        color: #007bff;
+        border: 1px solid #007bff;
+    }
+    
+    .btn-outline-primary:hover {
+        background: #007bff;
+        color: white;
+    }
+    
+    .btn-outline-danger {
+        color: #dc3545;
+        border: 1px solid #dc3545;
+    }
+    
+    .btn-outline-danger:hover {
+        background: #dc3545;
+        color: white;
+    }
+    
+    .btn-outline-success {
+        color: #28a745;
+        border: 1px solid #28a745;
+    }
+    
+    .btn-outline-success:hover {
+        background: #28a745;
+        color: white;
+    }
+    
+    /* 🔎 Search Box */
+    .search-bar {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search-bar input {
+        border-radius: 20px;
+        padding: 10px;
+        width: 250px;
+        margin-right: 10px;
+    }
+    
+    .search-bar button {
+        border-radius: 20px;
+        padding: 10px 15px;
+    }
+    
+    /* 📱 Responsive Design */
+    @media (max-width: 768px) {
+        .container {
+            padding: 15px;
+        }
+    
+        .table {
+            font-size: 14px;
+        }
+    }
+    
