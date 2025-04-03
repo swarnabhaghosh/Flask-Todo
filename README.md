@@ -53,17 +53,11 @@ python --version
    http://127.0.0.1:9000/
    ```
 
-## 📷 Screenshots
-*(Add screenshots of your web app here!)*
-
 ## 💡 Future Enhancements
 - User authentication (Login/Signup)
 - Task prioritization
 - Deadline reminders
 - Dark mode support
-
-## 📄 License
-This project is open-source and available under the **MIT License**.
 
 ---
 Give this project a ⭐ on GitHub if you find it useful! 😊
